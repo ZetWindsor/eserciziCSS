@@ -1,0 +1,19 @@
+section{
+  border: 3px solid black;
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:center ;
+}
+
+
+div{
+  border: 1px red solid;
+  width: 20ch;
+  height: 20ch;
+  margin: 1rem;
+  text-align: center;
+  font-size: 30px;
+}
