@@ -26,7 +26,8 @@
 .top__sidebar>img {
   margin: 0;
   padding: 0;
-  width: 100%;/*come placeholder del logo ho usato una immagine random e anche se allargata male era per prendere l intero spazio (fatto di porposito)*/
+  width: 100%;
+  /*come placeholder del logo ho usato una immagine random e anche se allargata male era per prendere l intero spazio (fatto di porposito)*/
   height: 100%;
 }
 
@@ -67,7 +68,7 @@
   object-fit: cover;
 }
 
-.bot__sidebar>div>p{
+.bot__sidebar>div>p {
   font-size: large;
   font-weight: bolder;
 }
