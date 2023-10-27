@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  width: 100vw;
+  height: 150px;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .element{
+  display: block;
+}
+
+nav .hamburger{
+  display: none;
+}
+
+
+
+@media(max-width:768px){
+
+  nav{
+    width: 100vw;
+    height: 150px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  nav .element{
+    display: none;
+  }
+  
+  nav .hamburger{
+    display: block;
+
+  }
+
+  nav .hamburger img{
+    width: 100px;
+    height: 100px;
+  
+
+  }
+  
+}
