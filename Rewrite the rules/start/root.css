@@ -1,0 +1,9 @@
+:root{
+  /*colors*/
+--background-color:#011212;
+--primary-color:#ff8800;
+/*dimentsions*/
+--max-width-ball:100px;
+--max-height-ball:100px;
+--max-border-radius:50px;
+}

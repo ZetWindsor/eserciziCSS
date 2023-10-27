@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  width: 300px;
+  height: 600px;
+  grid-template-rows: 35% 25% 10% 10% 10% 10%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+div {
+  border: 1px solid black;
+}
+
+p,
+a {
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+h2 {
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.immagine {
+  background-color: rgb(126, 135, 146);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

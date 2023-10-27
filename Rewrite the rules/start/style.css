@@ -1,0 +1,10 @@
+body {
+    background-color: var(--background-color);
+}
+
+.ball {
+    width: var(--max-width-ball);
+    height: var(--max-height-ball);
+    background-color:var(--primary-color);
+    border-radius: var(--max-border-radius);
+}
