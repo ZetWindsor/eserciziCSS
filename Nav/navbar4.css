@@ -7,7 +7,7 @@ body{
 }
 
 .navbar {
-  width: 100%;
+  width: 1500px;
   height: 70px;
   display: flex;
  justify-content: space-between;
@@ -16,7 +16,7 @@ body{
   align-items: center;
 }
 
-.left {
+.navbar_left {
   padding-left: 10px;
   margin-right: 150px;
   display: flex;
@@ -24,17 +24,17 @@ body{
   align-items: center;
 }
 
-.left>div {
+.navbar_left>div {
   margin-right: 20px;
 }
 
-.right {
+.navbar_right {
   display: flex;
   flex-direction: row;
 }
 
 
-.right>div {
+.navbar_right>div {
   margin-right: 20px;
 }
 
@@ -43,19 +43,19 @@ div {
   color: rgb(116, 116, 116);
 }
 
-.title {
+.navbar_left_title {
   color: white;
   font-weight: 900;
   font-size: 40px;
 }
 
-.home {
+.navbar_left_home {
   color: white;
   font-weight: 500;
 }
 
-.link,
-.dropdown {
+.navbar_left_link,
+.navbar_left_dropdown {
   color: rgb(155, 155, 155);
   display: flex;
 }
